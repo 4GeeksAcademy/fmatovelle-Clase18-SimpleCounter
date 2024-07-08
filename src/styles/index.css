@@ -1,4 +1,29 @@
-
+.seconds-counter {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    font-size: 2em;
+    color: white;
+  }
+  
+  .digit {
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    width: 40px;
+    text-align: center;
+  }
+  
 /* 
 
     You can write your own styles here...
